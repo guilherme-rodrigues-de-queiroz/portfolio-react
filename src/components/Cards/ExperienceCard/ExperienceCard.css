@@ -1,0 +1,95 @@
+.Top {
+    width: 100%;
+    display: flex;
+    max-width: 100%;
+    gap: 12px;
+}
+
+.Top img {
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 4px;
+
+    @media only screen and (max-width: 768px) {
+        height: 40px;
+    }
+}
+
+.BodyExp {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.RoleExp {
+    font-size: 18px;
+    font-weight: 600;
+    color: #31344B;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+
+.CompanyExp {
+    font-size: 14px;
+    font-weight: 300;
+    color: #31344B;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 12px;
+    }
+}
+
+.DateExp {
+    font-size: 12px;
+    font-weight: 300;
+    color: #31344B;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 10px;
+    }
+}
+
+.DescriptionExp span {
+    display: -webkit-box;
+    max-width: 100%;
+}
+
+.DescriptionExp {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #31344B;
+    margin-bottom: 10px;
+    text-align: justify;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 12px;
+    }
+}
+
+.SkillsExp {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    margin-top: -10px;
+}
+
+.ItemWrapperExp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.vertical-timeline::before {
+    background-color: #fff;
+}
+
+.vertical-timeline-element-icon {
+    background-color: #fff;
+}
+
+.vertical-timeline-element-date {
+    color: #31344B;
+}

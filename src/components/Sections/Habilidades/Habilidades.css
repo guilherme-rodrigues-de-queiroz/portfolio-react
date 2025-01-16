@@ -1,0 +1,122 @@
+#Habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+
+.Wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+    gap: 12px;
+
+    @media (max-width: 960px) {
+        flex-direction: column;
+    }
+}
+
+.TitleHab {
+    font-size: 52px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #31344B;
+
+    @media (max-width: 768px) {
+        font-size: 32px;
+    }
+}
+
+.Descricao {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    color: #A6A6A6;
+    margin-bottom: 40px;
+
+    @media (max-width > 768px) {
+        font-size: 16px;
+    }
+}
+
+.HabilidadesContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.Skill {
+    width: 100%;
+    max-width: 500px;
+    background-color: #E6E7EE;
+    border: none;
+    border-radius: 16px;
+    padding: 18px 36px;
+    filter: drop-shadow(4px 4px 5px #00000040);
+    box-shadow: -6px -6px 15px #fff;
+
+    @media (max-width: 768px) {
+        max-width: 400px;
+        padding: 10px 36px;
+    }
+
+    @media (max-width: 500px) {
+        max-width: 330px;
+        padding: 10px 36px;
+    }
+}
+
+.SkillTitle {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6586FF;
+}
+
+.SkillList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.SkillItem {
+    font-size: 16px;
+    font-weight: 400;
+    color: #A4A4A4;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: -2px -2px 4px #00000040, 2px 2px 5px #fff;
+
+    @media (max-width: 768px) {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+
+.SkillImage {
+    width: 24px;
+    height: 24px;
+}

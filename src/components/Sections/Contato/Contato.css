@@ -1,0 +1,115 @@
+#Contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+
+form {
+    background-color: transparent;
+    border: 1px solid hsla(0, 0%, 100%, .125);
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px #00000040, -4px -4px 10px #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 28px;
+    max-width: 600px;
+    padding: 32px;
+    width: 95%;
+}
+
+.WrapperContato {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+    gap: 12px;
+
+    @media (max-width: 960px) {
+        flex-direction: column;
+    }
+}
+
+.TitleContato {
+    font-size: 52px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #31344B;
+
+    @media (max-width: 768px) {
+        font-size: 32px;
+    }
+}
+
+.DescContato {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    color: #A6A6A6;
+    margin-bottom: 40px;
+
+    @media (max-width> 768px) {
+        font-size: 16px;
+    }
+}
+
+.FormContato {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ContactTitle {
+    font-size: 28px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #31344B;
+}
+
+.ContactInput {
+    flex: 1;
+    background-color: transparent;
+    border: 1px solid #E6E7EE;
+    box-shadow: -1px -1px 4px #00000040, 2px 2px 4px #fff;
+    outline: none;
+    font-size: 18px;
+    color: #31344B;
+    border-radius: 12px;
+    padding: 15px 23px;
+}
+
+.ContactInputMessage {
+    flex: 1;
+    background-color: transparent;
+    border: 1px solid #E6E7EE;
+    box-shadow: -1px -1px 4px #00000040, 2px 2px 4px #fff;
+    outline: none;
+    font-size: 18px;
+    color: #31344B;
+    border-radius: 12px;
+    padding: 12px 23px;
+}
+
+.ContactButton {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: #6586FF;
+    padding: 13px 16px;
+    margin-top: 2px;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: 2px 2px 10px #00000040;
+}

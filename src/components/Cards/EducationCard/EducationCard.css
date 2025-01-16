@@ -1,0 +1,92 @@
+.TopFor {
+    width: 100%;
+    display: flex;
+    max-width: 100%;
+    gap: 12px;
+}
+
+.TopFor img {
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 4px;
+
+    @media only screen and (max-width: 768px) {
+        height: 40px;
+    }
+}
+
+.BodyFor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.SchoolFor {
+    font-size: 18px;
+    font-weight: 600;
+    color: #31344B;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 14px;
+    }
+}
+
+.DegreeFor {
+    font-size: 14px;
+    font-weight: 300;
+    color: #31344B;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 12px;
+    }
+}
+
+.DateFor {
+    font-size: 12px;
+    font-weight: 300;
+    color: #31344B;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 10px;
+    }
+}
+
+.Grade {
+    font-size: 14px;
+    font-weight: 500;
+    color: #31344B;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 12px;
+    }
+}
+
+.DescFor span {
+    display: -webkit-box;
+    max-width: 100%;
+}
+
+.DescFor {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #31344B;
+    margin-bottom: 10px;
+    text-align: justify;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 12px;
+    }
+}
+
+.vertical-timeline::before {
+    background-color: #fff;
+}
+
+.vertical-timeline-element-icon {
+    background-color: #fff;
+}
+
+.vertical-timeline-element-date {
+    color: #31344B;
+}

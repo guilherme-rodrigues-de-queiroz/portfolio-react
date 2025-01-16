@@ -1,0 +1,48 @@
+#Formacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+
+.WrapperFor {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+    gap: 12px;
+
+    @media (max-width: 960px) {
+        flex-direction: column;
+    }
+}
+
+.TitleFor {
+    font-size: 52px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #31344B;
+
+    @media (max-width: 768px) {
+        font-size: 32px;
+    }
+}
+
+.DescForm {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    color: #A6A6A6;
+    margin-bottom: 40px;
+
+    @media (max-width> 768px) {
+        font-size: 16px;
+    }
+}
