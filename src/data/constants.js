@@ -253,10 +253,10 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Homepage",
+        title: "Landing Page",
         date: "Mar 2024",
         description:
-            "Homepage para a comercialização de cursos de um jogo, utilizando HTML5, CSS3 e JavaScript vanilla.",
+            "Landing Page para a comercialização de um curso, utilizando HTML5, CSS3 e JavaScript vanilla.",
         image:
             "https://i.ibb.co/1GSBMnx/h0wzy.png",
         category: "website",
