@@ -32,7 +32,7 @@ function EducationCard({ education }) {
             date={education.date}
         >
             <div className="TopFor">
-                <img src={education.img} alt="Formação" />
+                <img src={education.img} loading="lazy" alt="Formação" />
                 <div className="BodyFor">
                     <div className="SchoolFor">{education.school}</div>
                     <div className="DegreeFor">{education.degree}</div>

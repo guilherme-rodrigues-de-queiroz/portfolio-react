@@ -18,6 +18,7 @@ function ProjectCard({ project }) {
                         src={member.img}
                         alt={`Imagem do membro ${member.name}`}
                         title={member.name}
+                        loading="lazy"
                     />
                 ))}
             </div>

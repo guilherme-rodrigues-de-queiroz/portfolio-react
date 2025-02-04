@@ -32,7 +32,7 @@ function ExperienceCard({ experience }) {
             date={experience.date}
         >
             <div className="Top">
-                <img src={experience.img} alt="Experiência" />
+                <img src={experience.img} loading="lazy" alt="Experiência" />
                 <div className="BodyExp">
                     <div className="RoleExp">{experience.role}</div>
                     <div className="CompanyExp">{experience.company}</div>
