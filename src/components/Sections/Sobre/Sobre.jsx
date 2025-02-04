@@ -50,7 +50,7 @@ function Sobre() {
           <div className="SobreRightContainer">
             <Tilt options={defaultTilt}>
               <div className="RoundedImg">
-                <img src={Eu} loading="lazy" alt='Guilherme Rodrigues'></img>
+                <img src={Eu} alt='Guilherme Rodrigues'></img>
               </div>
             </Tilt>
           </div>
