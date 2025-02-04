@@ -19,6 +19,10 @@ form {
     max-width: 600px;
     padding: 32px;
     width: 95%;
+
+    @media (max-width: 768px) {
+        max-width: 400px;
+    }
 }
 
 .WrapperContato {
