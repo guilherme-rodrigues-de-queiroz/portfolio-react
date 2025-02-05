@@ -28,27 +28,27 @@ export const skills = [
             {
                 name: "CSS",
                 image:
-                    "https://i.ibb.co/V0W29ZRr/css3.png", // https://i.ibb.co/kFNVN3D/css3.webp
+                    "https://i.ibb.co/V0W29ZRr/css3.png",
             },
             {
                 name: "JavaScript",
                 image:
-                    "https://i.ibb.co/VpLpRSbR/javascript.webp",
+                    "https://i.ibb.co/twbQBMwT/javascript.png", // https://i.ibb.co/VpLpRSbR/javascript.webp
             },
             {
                 name: "Bootstrap",
                 image:
-                    "https://i.ibb.co/1fRWyz7q/bootstrap.png", // https://i.ibb.co/Cs7yQvCd/bootstrap.webp
+                    "https://i.ibb.co/1fRWyz7q/bootstrap.png",
             },
             {
                 name: "React",
                 image:
-                    "https://i.ibb.co/DDfRrzB4/react.png", // https://i.ibb.co/1YDcSrXH/react.webp
+                    "https://i.ibb.co/1YDcSrXH/react.webp",
             },
             {
                 name: "Vite",
                 image:
-                    "https://i.ibb.co/qMS9kjnW/vite.webp",
+                    "https://i.ibb.co/qLb9TF4G/vite.png", // https://i.ibb.co/qMS9kjnW/vite.webp
             },
         ],
     },
@@ -57,7 +57,7 @@ export const skills = [
         skills: [
             {
                 name: "Csharp",
-                image: "https://i.ibb.co/b5PxDnnL/csharp.png", // https://i.ibb.co/HLZmmzX6/csharp.webp
+                image: "https://i.ibb.co/b5PxDnnL/csharp.png",
             },
             {
                 name: ".NET",
@@ -74,7 +74,7 @@ export const skills = [
             },
             {
                 name: "PostgreSQL",
-                image: "https://i.ibb.co/mVVpQHGv/postgresql.png", // https://i.ibb.co/B5C3rRjr/postgresql.webp
+                image: "https://i.ibb.co/B5C3rRjr/postgresql.webp",
             },
         ],
     },
@@ -84,32 +84,32 @@ export const skills = [
             {
                 name: "GitHub",
                 image:
-                    "https://i.ibb.co/W40SJRHN/github.png", // https://i.ibb.co/NLLdVMJ/github.png
+                    "https://i.ibb.co/W40SJRHN/github.png",
             },
             {
                 name: "Vercel",
                 image:
-                    "https://i.ibb.co/9HNwGbQ/vercel-icon.png",
+                    "https://i.ibb.co/LDYWCQkF/vercel-icon.png", // https://i.ibb.co/9HNwGbQ/vercel-icon.png
             },
             {
                 name: "VS Code",
                 image:
-                    "https://i.ibb.co/JjWS2kCG/vscode.webp",
+                    "https://i.ibb.co/Y7rjSBq1/vscode.png", // https://i.ibb.co/JjWS2kCG/vscode.webp
             },
             {
                 name: "Visual Studio 2022",
                 image:
-                    "https://i.ibb.co/W3G4XKm/visualstudio.png",
+                    "https://i.ibb.co/B28fqyCK/visualstudio.png", // https://i.ibb.co/W3G4XKm/visualstudio.png
             },
             {
                 name: "Adobe Photoshop",
                 image:
-                    "https://i.ibb.co/NFsPzXz/ps6.png",
+                    "https://i.ibb.co/pjFszjLs/ps6.png", // https://i.ibb.co/NFsPzXz/ps6.png
             },
             {
                 name: "Figma",
                 image:
-                    "https://i.ibb.co/PNtmPb5/figma.png",
+                    "https://i.ibb.co/PzPXSzzD/figma.png", // https://i.ibb.co/PNtmPb5/figma.png
             },
             {
                 name: "Canva",
@@ -133,7 +133,7 @@ export const For = {
 export const experiences = [
     {
         id: 0,
-        img: "https://i.ibb.co/cx2wYGD/h0wzy.png",
+        img: "https://i.ibb.co/dsRNRcq7/h0wzy.png", // https://i.ibb.co/cx2wYGD/h0wzy.png 
         role: "Freelancer",
         company: "www.cursogwen.com",
         date: "2024",
@@ -213,7 +213,7 @@ export const projects = [
         description:
             "Controle de estoque, utilizando Windows Forms Application C# .NET Framework e MySQL para o banco de dados",
         image:
-            "https://i.ibb.co/dw4xYbtV/Controle-de-estoque.webp", // https://i.ibb.co/29fT8Wv/Controle-de-estoque.webp
+            "https://i.ibb.co/dw4xYbtV/Controle-de-estoque.webp",
         category: "app",
         github: "https://github.com/guilherme-rodrigues-de-queiroz/InventoryControl",
         webapp: "https://github.com/guilherme-rodrigues-de-queiroz/InventoryControl",
@@ -233,7 +233,7 @@ export const projects = [
         description:
             "Website para apresentação de uma empresa, usando HTML5, Bootstrap, JavaScript vanilla e EmailJS.",
         image:
-            "https://i.ibb.co/LH3ZVtd/4tech.webp", // https://i.ibb.co/qMy7Ym7P/4tech.webp
+            "https://i.ibb.co/LH3ZVtd/4tech.webp",
         category: "website",
         github: "https://github.com/guilherme-rodrigues-de-queiroz/website-aep",
         webapp: "https://website4tech.vercel.app/",
@@ -258,7 +258,7 @@ export const projects = [
         description:
             "Landing Page para a comercialização de um curso, utilizando HTML5, CSS3 e JavaScript vanilla.",
         image:
-            "https://i.ibb.co/Df71QDPx/h0wzy.webp",
+            "https://i.ibb.co/ynMPQnPC/h0wzy-1.webp", // https://i.ibb.co/Df71QDPx/h0wzy.webp
         category: "website",
         github: "https://www.cursogwen.com",
         webapp: "www.cursogwen.com",
