@@ -33,7 +33,7 @@ export const skills = [
             {
                 name: "JavaScript",
                 image:
-                    "https://i.ibb.co/twbQBMwT/javascript.png", // https://i.ibb.co/VpLpRSbR/javascript.webp
+                    "https://i.ibb.co/twbQBMwT/javascript.png",
             },
             {
                 name: "Bootstrap",
@@ -48,7 +48,7 @@ export const skills = [
             {
                 name: "Vite",
                 image:
-                    "https://i.ibb.co/qLb9TF4G/vite.png", // https://i.ibb.co/qMS9kjnW/vite.webp
+                    "https://i.ibb.co/qLb9TF4G/vite.png",
             },
         ],
     },
@@ -89,27 +89,27 @@ export const skills = [
             {
                 name: "Vercel",
                 image:
-                    "https://i.ibb.co/LDYWCQkF/vercel-icon.png", // https://i.ibb.co/9HNwGbQ/vercel-icon.png
+                    "https://i.ibb.co/LDYWCQkF/vercel-icon.png",
             },
             {
                 name: "VS Code",
                 image:
-                    "https://i.ibb.co/Y7rjSBq1/vscode.png", // https://i.ibb.co/JjWS2kCG/vscode.webp
+                    "https://i.ibb.co/Y7rjSBq1/vscode.png",
             },
             {
                 name: "Visual Studio 2022",
                 image:
-                    "https://i.ibb.co/B28fqyCK/visualstudio.png", // https://i.ibb.co/W3G4XKm/visualstudio.png
+                    "https://i.ibb.co/B28fqyCK/visualstudio.png",
             },
             {
                 name: "Adobe Photoshop",
                 image:
-                    "https://i.ibb.co/pjFszjLs/ps6.png", // https://i.ibb.co/NFsPzXz/ps6.png
+                    "https://i.ibb.co/pjFszjLs/ps6.png",
             },
             {
                 name: "Figma",
                 image:
-                    "https://i.ibb.co/PzPXSzzD/figma.png", // https://i.ibb.co/PNtmPb5/figma.png
+                    "https://i.ibb.co/PzPXSzzD/figma.png",
             },
             {
                 name: "Canva",
@@ -133,7 +133,7 @@ export const For = {
 export const experiences = [
     {
         id: 0,
-        img: "https://i.ibb.co/dsRNRcq7/h0wzy.png", // https://i.ibb.co/cx2wYGD/h0wzy.png 
+        img: "https://i.ibb.co/dsRNRcq7/h0wzy.png",
         role: "Freelancer",
         company: "www.cursogwen.com",
         date: "2024",
@@ -258,7 +258,7 @@ export const projects = [
         description:
             "Landing Page para a comercialização de um curso, utilizando HTML5, CSS3 e JavaScript vanilla.",
         image:
-            "https://i.ibb.co/ynMPQnPC/h0wzy-1.webp", // https://i.ibb.co/Df71QDPx/h0wzy.webp
+            "https://i.ibb.co/ynMPQnPC/h0wzy-1.webp",
         category: "website",
         github: "https://www.cursogwen.com",
         webapp: "www.cursogwen.com",
