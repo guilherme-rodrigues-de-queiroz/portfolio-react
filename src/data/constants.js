@@ -28,7 +28,7 @@ export const skills = [
             {
                 name: "CSS",
                 image:
-                    "https://i.ibb.co/kFNVN3D/css3.webp",
+                    "https://i.ibb.co/V0W29ZRr/css3.png", // https://i.ibb.co/kFNVN3D/css3.webp
             },
             {
                 name: "JavaScript",
@@ -38,12 +38,12 @@ export const skills = [
             {
                 name: "Bootstrap",
                 image:
-                    "https://i.ibb.co/Cs7yQvCd/bootstrap.webp",
+                    "https://i.ibb.co/1fRWyz7q/bootstrap.png", // https://i.ibb.co/Cs7yQvCd/bootstrap.webp
             },
             {
                 name: "React",
                 image:
-                    "https://i.ibb.co/1YDcSrXH/react.webp",
+                    "https://i.ibb.co/DDfRrzB4/react.png", // https://i.ibb.co/1YDcSrXH/react.webp
             },
             {
                 name: "Vite",
@@ -57,7 +57,7 @@ export const skills = [
         skills: [
             {
                 name: "Csharp",
-                image: "https://i.ibb.co/HLZmmzX6/csharp.webp",
+                image: "https://i.ibb.co/b5PxDnnL/csharp.png", // https://i.ibb.co/HLZmmzX6/csharp.webp
             },
             {
                 name: ".NET",
@@ -74,7 +74,7 @@ export const skills = [
             },
             {
                 name: "PostgreSQL",
-                image: "https://i.ibb.co/B5C3rRjr/postgresql.webp",
+                image: "https://i.ibb.co/mVVpQHGv/postgresql.png", // https://i.ibb.co/B5C3rRjr/postgresql.webp
             },
         ],
     },
@@ -84,7 +84,7 @@ export const skills = [
             {
                 name: "GitHub",
                 image:
-                    "https://i.ibb.co/NLLdVMJ/github.png",
+                    "https://i.ibb.co/W40SJRHN/github.png", // https://i.ibb.co/NLLdVMJ/github.png
             },
             {
                 name: "Vercel",
@@ -213,7 +213,7 @@ export const projects = [
         description:
             "Controle de estoque, utilizando Windows Forms Application C# .NET Framework e MySQL para o banco de dados",
         image:
-            "https://i.ibb.co/29fT8Wv/Controle-de-estoque.webp",
+            "https://i.ibb.co/dw4xYbtV/Controle-de-estoque.webp", // https://i.ibb.co/29fT8Wv/Controle-de-estoque.webp
         category: "app",
         github: "https://github.com/guilherme-rodrigues-de-queiroz/InventoryControl",
         webapp: "https://github.com/guilherme-rodrigues-de-queiroz/InventoryControl",
@@ -233,7 +233,7 @@ export const projects = [
         description:
             "Website para apresentação de uma empresa, usando HTML5, Bootstrap, JavaScript vanilla e EmailJS.",
         image:
-            "https://i.ibb.co/qMy7Ym7P/4tech.webp",
+            "https://i.ibb.co/LH3ZVtd/4tech.webp", // https://i.ibb.co/qMy7Ym7P/4tech.webp
         category: "website",
         github: "https://github.com/guilherme-rodrigues-de-queiroz/website-aep",
         webapp: "https://website4tech.vercel.app/",
