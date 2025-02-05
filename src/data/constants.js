@@ -28,27 +28,27 @@ export const skills = [
             {
                 name: "CSS",
                 image:
-                    "https://i.ibb.co/D83SVj9/css3.png",
+                    "https://i.ibb.co/kFNVN3D/css3.webp",
             },
             {
                 name: "JavaScript",
                 image:
-                    "https://i.ibb.co/StybhZR/Java-Script-logo.png",
+                    "https://i.ibb.co/VpLpRSbR/javascript.webp",
             },
             {
                 name: "Bootstrap",
                 image:
-                    "https://i.ibb.co/cT22Hpq/bootstrap.png",
+                    "https://i.ibb.co/Cs7yQvCd/bootstrap.webp",
             },
             {
                 name: "React",
                 image:
-                    "https://i.ibb.co/gSXrVym/React-icon-svg.png",
+                    "https://i.ibb.co/1YDcSrXH/react.webp",
             },
             {
                 name: "Vite",
                 image:
-                    "https://i.ibb.co/5WPKkb7/Vitejs-logo-svg.png",
+                    "https://i.ibb.co/qMS9kjnW/vite.webp",
             },
         ],
     },
@@ -57,7 +57,7 @@ export const skills = [
         skills: [
             {
                 name: "Csharp",
-                image: "https://i.ibb.co/RgD6YpZ/Logo-C-sharp-svg.png",
+                image: "https://i.ibb.co/HLZmmzX6/csharp.webp",
             },
             {
                 name: ".NET",
@@ -74,7 +74,7 @@ export const skills = [
             },
             {
                 name: "PostgreSQL",
-                image: "https://i.ibb.co/jTHNRxr/postgresql.png",
+                image: "https://i.ibb.co/B5C3rRjr/postgresql.webp",
             },
         ],
     },
@@ -94,7 +94,7 @@ export const skills = [
             {
                 name: "VS Code",
                 image:
-                    "https://i.ibb.co/Y8my4Zx/vscode.png",
+                    "https://i.ibb.co/JjWS2kCG/vscode.webp",
             },
             {
                 name: "Visual Studio 2022",
@@ -114,7 +114,7 @@ export const skills = [
             {
                 name: "Canva",
                 image:
-                    "https://i.ibb.co/BqTjv9C/canva.png",
+                    "https://i.ibb.co/Txrq5SZg/canva.webp",
             },
         ],
     },
@@ -191,7 +191,7 @@ export const education = [
     },
     {
         id: 3,
-        img: "https://i.ibb.co/sjMvvh1/unicesumar.png",
+        img: "https://i.ibb.co/Gf3hfww4/unicesumar.webp",
         school: "uniCesumar - Londrina",
         date: "Fev 2023 - Cursando",
         grade: "82.7%",
@@ -213,7 +213,7 @@ export const projects = [
         description:
             "Controle de estoque, utilizando Windows Forms Application C# .NET Framework e MySQL para o banco de dados",
         image:
-            "https://i.ibb.co/8YknnsY/Controle-de-estoque.png",
+            "https://i.ibb.co/29fT8Wv/Controle-de-estoque.webp",
         category: "app",
         github: "https://github.com/guilherme-rodrigues-de-queiroz/InventoryControl",
         webapp: "https://github.com/guilherme-rodrigues-de-queiroz/InventoryControl",
@@ -233,7 +233,7 @@ export const projects = [
         description:
             "Website para apresentação de uma empresa, usando HTML5, Bootstrap, JavaScript vanilla e EmailJS.",
         image:
-            "https://i.ibb.co/1bNGhjj/4tech.png",
+            "https://i.ibb.co/qMy7Ym7P/4tech.webp",
         category: "website",
         github: "https://github.com/guilherme-rodrigues-de-queiroz/website-aep",
         webapp: "https://website4tech.vercel.app/",
@@ -258,7 +258,7 @@ export const projects = [
         description:
             "Landing Page para a comercialização de um curso, utilizando HTML5, CSS3 e JavaScript vanilla.",
         image:
-            "https://i.ibb.co/1GSBMnx/h0wzy.png",
+            "https://i.ibb.co/Df71QDPx/h0wzy.webp",
         category: "website",
         github: "https://www.cursogwen.com",
         webapp: "www.cursogwen.com",

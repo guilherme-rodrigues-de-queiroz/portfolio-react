@@ -1,6 +1,6 @@
 import '../Sobre/Sobre.css'
 import Typewriter from 'typewriter-effect'
-import Eu from '../../../images/Eu.png'
+import Eu from '../../../images/Eu.webp'
 import { Bio } from '../../../data/constants'
 import { Tilt } from 'react-tilt'
 import CV from '../../../assets/curriculo.pdf'
@@ -50,7 +50,7 @@ function Sobre() {
           <div className="SobreRightContainer">
             <Tilt options={defaultTilt}>
               <div className="RoundedImg">
-                <img src={Eu} alt='Guilherme Rodrigues'></img>
+                <img src={Eu} fetchPriority="high" alt='Guilherme Rodrigues'></img>
               </div>
             </Tilt>
           </div>
