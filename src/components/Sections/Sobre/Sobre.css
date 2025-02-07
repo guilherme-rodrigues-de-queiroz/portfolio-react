@@ -173,6 +173,7 @@
     border-radius: 50%;
     width: 100%;
     height: 100%;
+    padding: 20px;
     filter: drop-shadow(4px 4px 5px var(--sombra-preta));
     box-shadow: -4px -4px 10px var(--sombra-branca);
     transition: all 250ms ease-in-out;
@@ -185,8 +186,8 @@
 
 .RoundedImg img {
     border-radius: 50%;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     max-width: 400px;
     max-height: 400px;
     border: none;
