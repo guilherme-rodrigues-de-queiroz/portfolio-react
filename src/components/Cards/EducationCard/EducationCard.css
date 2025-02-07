@@ -24,7 +24,7 @@
 .SchoolFor {
     font-size: 18px;
     font-weight: 600;
-    color: #31344B;
+    color: var(--texto-preto);
 
     @media only screen and (max-width: 768px) {
         font-size: 14px;
@@ -34,7 +34,7 @@
 .DegreeFor {
     font-size: 14px;
     font-weight: 300;
-    color: #31344B;
+    color: var(--texto-exp);
 
     @media only screen and (max-width: 768px) {
         font-size: 12px;
@@ -44,7 +44,7 @@
 .DateFor {
     font-size: 12px;
     font-weight: 300;
-    color: #31344B;
+    color: var(--texto-exp);
 
     @media only screen and (max-width: 768px) {
         font-size: 10px;
@@ -54,7 +54,7 @@
 .Grade {
     font-size: 14px;
     font-weight: 500;
-    color: #31344B;
+    color: var(--texto-preto);
 
     @media only screen and (max-width: 768px) {
         font-size: 12px;
@@ -70,7 +70,7 @@
     width: 100%;
     font-size: 15px;
     font-weight: 400;
-    color: #31344B;
+    color: var(--texto-preto);
     margin-bottom: 10px;
     text-align: justify;
 
@@ -81,12 +81,4 @@
 
 .vertical-timeline::before {
     background-color: #fff;
-}
-
-.vertical-timeline-element-icon {
-    background-color: #fff;
-}
-
-.vertical-timeline-element-date {
-    color: #31344B;
 }

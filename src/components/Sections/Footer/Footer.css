@@ -76,15 +76,15 @@
     font-size: 1.5rem;
     color: #A6A6A6;
     transition: all .30s ease-in-out;
-    background-color: #E6E7EE;
+    background-color: var(--cor-de-fundo);
     width: 40px;
     height: 40px;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    box-shadow: 1px 1px 2px #00000040, -1px -1px 2px #fff;
+    box-shadow: 1px 1px 2px var(--sombra-preta), -1px -1px 2px var(--sombra-branca);
 
     &:hover {
-        box-shadow: -1px -1px 2px #00000040, 1px 1px 2px #fff;
+        box-shadow: -1px -1px 2px var(--sombra-preta), 1px 1px 2px var(--sombra-branca);
     }
 }

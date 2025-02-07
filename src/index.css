@@ -1,10 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+  --scroll: #9e9fa3;
+  --cor-de-fundo: #E6E7EE;
+  --separador: #D1D9E6;
+  --textos-nav: #A6A6A6;
+  --textos-nav-hover: #6586FF;
+  --texto-portfolio: #868686;
+  --sombra-preta: #00000040;
+  --sombra-branca: #fff;
+  --toggle-fundo: #E6E7EE;
+  --toggle-button: #E6E7EE;
+  --toggle-sombra-branca: #fff;
+  --toggle-sombra-preta: #00000040;
+  --texto-preto: #31344B;
+  --subtitulo-sobre: #949494;
+  --texto-curriculo: #6586FF;
+  --fundo-img-sobre: #f1f1f4;
+  --selecionado: #44476A;
+  --titulo-sections: #31344B;
+  --descricao-sections: #A6A6A6;
+  --titulo-skill: #6586FF;
+  --texto-experiencia: #31344B;
+  --texto-exp: #31344B;
+  --desc-proj: #6D6E77;
+  --enviar: #6586FF; 
+  --fundo-mobile: #e1e2ea72;
+  --borda-menu-mobile: #D1D9E6;
+}
+
+[data-theme="dark"] {
+  --scroll: #494949;
+  --cor-de-fundo: #252525;
+  --separador: #2B2B2B;
+  --textos-nav: #A6A6A6;
+  --textos-nav-hover: #6586FF;
+  --texto-portfolio: #E6E7EE;
+  --sombra-preta: rgba(0, 0, 0, 0.4);
+  --sombra-branca: rgba(85, 85, 85, 0.4);
+  --toggle-button: #252525;
+  --toggle-fundo: #252525;
+  --toggle-sombra-branca: rgba(85, 85, 85, 0.9);
+  --toggle-sombra-preta: rgba(0, 0, 0, 0.9);
+  --texto-preto: #E6E7EE;
+  --subtitulo-sobre: #B9B9B9;
+  --texto-curriculo: #E6E7EE;
+  --fundo-img-sobre: #1f1f1f;
+  --selecionado: #fff;
+  --titulo-sections: #6586FF;
+  --descricao-sections: #B9B9B9;
+  --titulo-skill: #A6A6A6;
+  --texto-experiencia: #E6E7EE;
+  --texto-exp: #A6A6A6;
+  --desc-proj: #E6E7EE;
+  --enviar: #252525;
+  --fundo-mobile: #252525c7;
+  --borda-menu-mobile: #323232;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  transition: background 250ms ease-in-out;
 }
 
 body::-webkit-scrollbar {
@@ -12,18 +71,18 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #E6E7EE;
+  background: var(--cor-de-fundo);
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #9e9fa3;
+  background-color: var(--scroll);
   border-radius: 20px;
-  border: 3px solid #E6E7EE;
+  border: 3px solid var(--cor-de-fundo);
 }
 
 ::selection {
   background-color: #6586FF;
-  color: #44476A;
+  color: var(--selecionado);
 }
 
 body {
@@ -32,5 +91,5 @@ body {
   min-height: 100vh;
   width: 100vw;
   font-family: "Poppins", sans-serif;
-  background-color: #E6E7EE;
+  background-color: var(--cor-de-fundo);
 }

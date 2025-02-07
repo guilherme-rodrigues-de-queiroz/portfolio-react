@@ -1,5 +1,5 @@
 nav {
-    background-color: #E6E7EE;
+    background-color: var(--cor-de-fundo);
     height: 80px;
     display: flex;
     align-items: center;
@@ -8,7 +8,12 @@ nav {
     position: sticky;
     top: 0;
     z-index: 10;
-    border-bottom: 1px solid #D1D9E6;
+    border-bottom: 1px solid var(--separador);
+    transition: all 250ms ease-in-out;
+}
+
+.btnToggleDark {
+    list-style: none;
 }
 
 .NavbarContainer {
@@ -29,14 +34,15 @@ nav {
     font-size: 18px;
     width: 100px;
     height: 40px;
-    color: #868686;
+    color: var(--texto-portfolio);
     border-radius: 10px;
-    background-color: #E6E7EE;
-    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
-    box-shadow: -2px -2px 4px #fff;
+    background-color: var(--cor-de-fundo);
+    filter: drop-shadow(2px 2px 4px var(--sombra-preta));
+    box-shadow: -2px -2px 4px var(--sombra-branca);
     cursor: pointer;
     padding: 0 3%;
     text-decoration: none;
+    transition: all 250ms ease-in-out;
 }
 
 .NavItems {
@@ -62,14 +68,14 @@ nav {
 }
 
 .NavLink a {
-    color: #A6A6A6;
+    color: var(--textos-nav);
     font-weight: 500;
     cursor: pointer;
     transition: all .30s ease-in-out;
     text-decoration: none;
 
     &:hover {
-        color: #6586FF;
+        color: var(--textos-nav-hover);
     }
 }
 
@@ -84,13 +90,17 @@ nav {
         list-style: none;
         width: 100%;
         padding: 12px 40px 24px 40px;
-        background: #e1e2ea72;
-        border-bottom: 1px solid #D1D9E6;
+        background: var(--fundo-mobile);
+        border-bottom: 1px solid var(--borda-menu-mobile);
         border-radius: 0 0 15px 15px;
         backdrop-filter: blur(10px);
         position: absolute;
         top: 80px;
         right: 0;
+    }
+
+    .NavLogo {
+        display: none;
     }
 
     .NavLinkButton {
@@ -118,7 +128,7 @@ nav {
     }
 
     .NavItems .NavLink a {
-        color: #31344B;
+        color: var(--texto-preto);
         font-weight: 400;
 
         &:hover {
@@ -144,16 +154,16 @@ nav {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #E6E7EE;
+    background-color: var(--cor-de-fundo);
     cursor: pointer;
-    filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.25));
-    box-shadow: -2px -2px 4px #fff;
+    filter: drop-shadow(1px 1px 4px var(--sombra-preta));
+    box-shadow: -2px -2px 4px var(--sombra-branca);
     transition: all .30s ease-in-out;
     color: #868686;
 
     &:hover {
-        box-shadow: 2px 2px 4px #fff;
-        filter: drop-shadow(-1px -1px 4px rgba(0, 0, 0, 0.25));
+        box-shadow: 2px 2px 4px var(--sombra-branca);
+        filter: drop-shadow(-1px -1px 4px var(--sombra-preta));
     }
 
     @media (max-width: 900px){

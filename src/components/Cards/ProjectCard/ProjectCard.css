@@ -1,16 +1,16 @@
 .CardProj {
     width: 330px;
     height: 490px;
-    background-color: #E6E7EE;
+    background-color: var(--cor-de-fundo);
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 4px 4px 5px #00000040, -4px -4px 5px #fff;
+    box-shadow: 4px 4px 5px var(--sombra-preta), -4px -4px 5px var(--sombra-branca);
     overflow: hidden;
     padding: 26px 20px;
     display: flex;
     flex-direction: column;
     gap: 14px;
-    transition: all 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 
     &:hover {
         transform: translateY(-5px);
@@ -20,9 +20,9 @@
 .CardProj img {
     width: 100%;
     height: 180px;
-    background-color: #E6E7EE;
+    background-color: var(--cor-de-fundo);
     border-radius: 10px;
-    box-shadow: -1px -1px 3px #00000040, 1px 1px 5px #fff;
+    box-shadow: -1px -1px 3px var(--sombra-preta), 1px 1px 5px var(--sombra-branca);
 }
 
 .DetailsProj {
@@ -36,7 +36,7 @@
 .TitlePro {
     font-size: 20px;
     font-weight: 400;
-    color: #31344B;
+    color: var(--texto-preto);
     overflow: hidden;
     display: -webkit-box;
     max-width: 100%;
@@ -50,7 +50,7 @@
     font-size: 12px;
     margin-left: 2px;
     font-weight: 300;
-    color: #6D6E77;
+    color: var(--texto-exp);
 
     @media only screen and (max-width: 768px) {
         font-size: 10px;
@@ -59,7 +59,7 @@
 
 .DescriptionPro {
     font-weight: 400;
-    color: #6D6E77;
+    color: var(--desc-proj);
     overflow: hidden;
     margin-top: 8px;
     display: -webkit-box;
@@ -80,9 +80,9 @@
     height: 38px;
     border-radius: 50%;
     margin-left: -10px;
-    background-color: #E6E7EE;
-    box-shadow: 1px 1px 3px #00000040, -1px -1px 5px #fff;
-    border: 3px solid #fff;
+    background-color: var(--cor-de-fundo);
+    box-shadow: 1px 1px 2px var(--sombra-preta), -1px -1px 2px var(--sombra-branca);
+    border: 3px solid var(--cor-de-fundo);
 }
 
 .CardProj a {

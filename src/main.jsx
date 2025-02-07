@@ -1,4 +1,4 @@
-import { StrictMode, useEffect } from 'react'
+import { StrictMode, useEffect, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Navbar from './components/Navbar/Navbar.jsx'
@@ -11,20 +11,29 @@ import Formacao from './components/Sections/Formacao/Formacao.jsx'
 import Contato from './components/Sections/Contato/Contato.jsx'
 
 const App = () => {
+  const [isDark, setIsDark] = useState(localStorage.getItem('isDark') === 'true')
+
   useEffect(() => {
+    document.body.setAttribute('data-theme', isDark ? 'dark' : 'light')
+    localStorage.setItem('isDark', isDark)
+
     const timer = setTimeout(() => {
-      const preloader = document.getElementById('preloader');
+      const preloader = document.getElementById('preloader')
       if (preloader) {
-        preloader.style.display = 'none';
+        preloader.style.display = 'none'
       }
     }, 4500);
 
-    return () => clearTimeout(timer);
-  }, []);
+    return () => clearTimeout(timer)
+  }, [isDark])
+
+  const toggleTheme = () => {
+    setIsDark(prevIsDark => !prevIsDark)
+  }
 
   return (
     <div>
-      <Navbar />
+      <Navbar toggleTheme={toggleTheme} isDark={isDark} />
       <Sobre />
       <Habilidades />
       <Experiencia />

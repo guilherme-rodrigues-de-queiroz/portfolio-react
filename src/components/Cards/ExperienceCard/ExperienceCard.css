@@ -24,7 +24,7 @@
 .RoleExp {
     font-size: 18px;
     font-weight: 600;
-    color: #31344B;
+    color: var(--texto-preto);
 
     @media only screen and (max-width: 768px) {
         font-size: 14px;
@@ -34,7 +34,7 @@
 .CompanyExp {
     font-size: 14px;
     font-weight: 300;
-    color: #31344B;
+    color: var(--texto-exp);
 
     @media only screen and (max-width: 768px) {
         font-size: 12px;
@@ -44,7 +44,7 @@
 .DateExp {
     font-size: 12px;
     font-weight: 300;
-    color: #31344B;
+    color: var(--texto-exp);
 
     @media only screen and (max-width: 768px) {
         font-size: 10px;
@@ -60,7 +60,7 @@
     width: 100%;
     font-size: 15px;
     font-weight: 400;
-    color: #31344B;
+    color: var(--texto-preto);
     margin-bottom: 10px;
     text-align: justify;
 
@@ -86,10 +86,10 @@
     background-color: #fff;
 }
 
-.vertical-timeline-element-icon {
-    background-color: #fff;
+span.vertical-timeline-element-icon {
+    background-color: var(--cor-de-fundo);
 }
 
-.vertical-timeline-element-date {
-    color: #31344B;
+span.vertical-timeline-element-date {
+    color: var(--texto-preto);
 }

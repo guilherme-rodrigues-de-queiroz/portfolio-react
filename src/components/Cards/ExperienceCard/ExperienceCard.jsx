@@ -18,12 +18,13 @@ function ExperienceCard({ experience }) {
                 display: "flex",
                 flexDirection: "column",
                 gap: "12px",
-                background: "#1d1836",
+                background: "var(--cor-de-fundo)",
                 color: "#fff",
-                boxShadow: "4px 4px 5px #00000040, -4px -4px 5px rgba(255, 255, 255, 60%)",
-                backgroundColor: "#E6E7EE",
+                boxShadow: "4px 4px 5px var(--sombra-preta), -4px -4px 5px var(--sombra-branca)",
+                backgroundColor: "var(--cor-de-fundo)",
                 border: "1px solid rgba(255, 255, 255, 0.125)",
                 borderRadius: "6px",
+                transition: "all 250ms ease-in-out",
             }}
 
             contentArrowStyle={{
