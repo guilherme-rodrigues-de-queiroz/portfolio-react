@@ -22,7 +22,7 @@ const App = () => {
       if (preloader) {
         preloader.style.display = 'none'
       }
-    }, 4500);
+    }, 3000);
 
     return () => clearTimeout(timer)
   }, [isDark])
