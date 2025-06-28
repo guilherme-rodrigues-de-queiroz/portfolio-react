@@ -215,8 +215,8 @@ export const projects = [
         image:
             "https://i.ibb.co/dw4xYbtV/Controle-de-estoque.webp",
         category: "app",
-        github: "https://github.com/guilherme-rodrigues-de-queiroz/InventoryControl",
-        webapp: "https://github.com/guilherme-rodrigues-de-queiroz/InventoryControl",
+        github: "https://github.com/4techdevelopments/ControleEstoque",
+        webapp: "https://github.com/4techdevelopments/ControleEstoque",
         member: [
             {
                 name: "Guilherme Rodrigues",
@@ -248,26 +248,6 @@ export const projects = [
                 name: "Vitor Milanezi",
                 img: "https://avatars.githubusercontent.com/u/149219008?v=4",
                 github: "https://github.com/VMilanezi",
-            },
-        ],
-    },
-    {
-        id: 2,
-        title: "Landing Page",
-        date: "Mar 2024",
-        description:
-            "Landing Page para a comercialização de um curso, utilizando HTML5, CSS3 e JavaScript vanilla.",
-        image:
-            "https://i.ibb.co/ynMPQnPC/h0wzy-1.webp",
-        category: "website",
-        github: "https://www.cursogwen.com",
-        webapp: "www.cursogwen.com",
-        member: [
-            {
-                name: "Guilherme Rodrigues",
-                img: "https://avatars.githubusercontent.com/u/147875655?v=4",
-                linkedin: "https://www.linkedin.com/in/guilhermedequeiroz/",
-                github: "https://github.com/guilherme-rodrigues-de-queiroz",
             },
         ],
     },
