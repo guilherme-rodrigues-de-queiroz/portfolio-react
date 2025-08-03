@@ -193,9 +193,9 @@ export const education = [
         id: 3,
         img: "https://i.ibb.co/Gf3hfww4/unicesumar.webp",
         school: "uniCesumar - Londrina",
-        date: "Fev 2023 - Cursando",
-        grade: "82.7%",
-        desc: "Atualmente estou cursando o Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) na Universidade Cesumar (Unicesumar) de Londrina. O curso abrange uma ampla gama de disciplinas, incluindo redes, hardware, empreendedorismo, lógica de programação, front end, estrutura de dados, banco de dados, entre outras disciplinas. Essa formação diversificada está proporcionando uma compreensão abrangente das tecnologias e práticas essenciais na área de desenvolvimento de sistemas, preparando-me para enfrentar os desafios do setor de TI com uma base sólida e conhecimentos atualizados",
+        date: "Fev 2023 - Ago 2025",
+        grade: "100%",
+        desc: "Concluí o Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) na Universidade Cesumar (Unicesumar) de Londrina. O curso abrangeu uma ampla gama de disciplinas, incluindo redes, hardware, empreendedorismo, lógica de programação, front end, estrutura de dados, banco de dados, entre outras disciplinas. Essa formação diversificada proporcionou uma compreensão abrangente das tecnologias e práticas essenciais na área de desenvolvimento de sistemas, preparando-me para enfrentar os desafios do setor de TI com uma base sólida e conhecimentos em diversas ferramentas e linguagens.",
         degree: "Tecnólogo - Análise e Desenvolvimento de Sistemas",
     },
 ];
