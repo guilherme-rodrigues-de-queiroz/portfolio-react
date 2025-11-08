@@ -226,7 +226,7 @@ export const projects = [
             },
         ],
     },
-    {
+    /*{
         id: 1,
         title: "4Tech Website",
         date: "Jun 2024",
@@ -250,7 +250,7 @@ export const projects = [
                 github: "https://github.com/VMilanezi",
             },
         ],
-    },
+    */},
 ];
 
 export const Cont = {
