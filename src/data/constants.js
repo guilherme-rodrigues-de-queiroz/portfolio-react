@@ -131,7 +131,7 @@ export const For = {
 }
 
 export const experiences = [
-    /*{
+    {
         id: 0,
         img: "https://i.ibb.co/dsRNRcq7/h0wzy.png",
         role: "Freelancer",
@@ -143,7 +143,7 @@ export const experiences = [
             "JavaScript",
             "CSS3",
         ],
-    },*/
+    },
     {
         id: 1,
         img: "https://i.ibb.co/TYFmnKr/4tech-1.png",
