@@ -131,7 +131,7 @@ export const For = {
 }
 
 export const experiences = [
-    {
+    /*{
         id: 0,
         img: "https://i.ibb.co/dsRNRcq7/h0wzy.png",
         role: "Freelancer",
@@ -143,7 +143,7 @@ export const experiences = [
             "JavaScript",
             "CSS3",
         ],
-    },
+    },*/
     {
         id: 1,
         img: "https://i.ibb.co/TYFmnKr/4tech-1.png",
@@ -226,7 +226,7 @@ export const projects = [
             },
         ],
     },
-    /*{
+    {
         id: 1,
         title: "4Tech Website",
         date: "Jun 2024",
@@ -250,7 +250,7 @@ export const projects = [
                 github: "https://github.com/VMilanezi",
             },
         ],
-    */},
+    },
 ];
 
 export const Cont = {
